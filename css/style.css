@@ -1,0 +1,291 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    font-family: "Alegreya Sans";
+  }
+  body{
+    width: 1200px;
+  }
+  .header__container{
+    /* img and links */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    width: 1200px;
+    background-color: black;
+    position: sticky;
+    color: white;
+    margin-top: 5px;
+    padding-top: 5px;
+
+}
+  .header-image{
+    /* logo */
+    width: 15%;
+    background-color: white;
+    padding: 5px;
+    margin-top: 5px;
+    position: relative;
+    right: 225px
+  }
+  .header-links{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+  }
+
+  header a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  }
+  header a:hover{
+    color: #54be90;
+  }
+  .space{
+    height: 60px;
+  }
+.main__intro-black{
+    /* intro */
+    background-image: url(/img/pozadí.jpg);
+    background-size: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.main__intro-black a{
+    color: white;
+    text-decoration: none;
+    border-bottom: solid #54be90;
+    border-width: 6px;
+}
+.main__intro-black h1{
+    font-size: 300%;
+    position: relative;
+    top: 40px;
+    font-weight: 300;
+}
+.main__intro-black h2{
+    font-size: 220%;
+    position: relative;
+    bottom: 20px;
+    font-weight: 200;
+}
+.main__intro-grey{
+    /* intro with circles */
+    background-color: #ebebeb;
+    width: 1200px;
+    text-align: center;
+    padding: 10px;
+    height: 180px;
+      
+}
+.main__intro-grey p{
+    max-width: 1200px;
+    text-align: center;
+    font-size: 140%;
+    padding: 20px;
+}
+.circles{
+display: flex;
+justify-content: space-around;
+padding-left: 50px;
+padding-right: 50px;
+position: relative;
+top: -60px
+}
+.circles p{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-color: #ebebeb;
+}
+.main__intro-home{
+    /* black DDDB */
+    width: 1200px;
+    height: 330px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.home h3{
+    color: #54be90;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 150%;
+}
+.home{
+/* každý zvlášť */
+width: 250px;
+text-align: center;
+position: relative;
+top: 50px;
+margin-left: 90px;
+margin-right: 90px;
+}
+.skills-tab{
+    /* tabulka */
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.main__my-skills h1{
+    text-align: center;
+    color: #54be90;
+    font-size: 300%;
+}
+.TAB{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    width: 130px;
+    text-align: center;
+    height: 35px;
+    padding-top: 10px;
+
+}
+.green{
+    background-color: #54be90;
+    height: 35px;
+    text-align: center;
+}
+.eighty{
+    width: 540px;
+}
+.seventy{
+    width: 470px;
+}
+.sixty{
+    width: 400px;
+}
+.fifty{
+    width: 335px;
+}
+.grey{
+    background-color: #ebebeb;
+    height: 35px;
+    text-align: center;
+    color: #444444;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.twenty{
+    width: 130px;
+}
+.thirty{
+    width: 200px;
+}
+.forty{
+    width: 270px;
+}
+.fifty-grey{
+    width: 335px;
+}
+.main__portfolio{
+    background-color: #54be90;
+    color: white;
+    text-align: center;
+    height: 600px;
+}
+.main__portfolio h1{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    padding-top: 20px;
+}
+
+.main__about-me{
+    /* celý box */
+    background-color: #ebebeb;
+    padding: 20px;
+    height: 600px;
+}
+.main__about-me h1{
+    text-align: center;
+    font-size: 300%;
+}
+.main__about-me-content{
+    /* img and text */
+    display: flex;
+    justify-content: center;
+}
+.about-me__text{
+    /* just text */
+    width: 450px;
+
+    
+}
+.about-underline{
+    border-bottom: solid #54be90;
+    border-width: 10px;
+}
+.main__about-me-content img{
+    width: 35%;
+}
+button{
+    background-color: #54be90;
+    color: white;
+    width: 150px;
+    border-radius: 15px;
+    border-color: white;
+
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.find-me{
+    /* whole box */
+    background-color: black;
+    height: 350px;
+}
+.find-me__images{
+    /* ikonky */
+    display: flex;
+}
+.find-me h2{
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 150%;
+}
+.find-me__images img: .change-my-color {
+    fill: white;
+  }
+  .find-me__images img{
+    width: 20%;
+    color: white;
+}
+.main__contact{
+
+}
+footer{
+
+}
+.footer__images{
+
+}
